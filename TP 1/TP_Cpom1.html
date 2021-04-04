@@ -1,0 +1,188 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nro 4</title>
+</head>
+<body>
+    <form action="" method="post">
+        <p>
+            <label for="firstname">First name:</label>
+            <input type="text" id="firstname"  name="" required>
+        </p>
+
+        <p>
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="" required>
+        </p>
+
+        <p>
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="" required>
+        </p>
+
+        <p>
+            <label for="color">Color:</label>
+            <input type="color" id="color" name="" required>
+        </p>
+        <p>
+            <label for="age">Age:(+13)</label>
+            <input type="number" min="15" id="age" name="" required>
+        </p>
+        <button type="submit">Click me</button>
+    </form>
+    <ul>
+        <li>xxx</li>
+        <li>yyy</li>
+        <li>zzz</li>
+    </ul>
+
+    <ol>
+        <li>xxx</li>
+        <li>yyy</li>
+        <li>zzz</li>
+    </ol>
+
+    <ol>
+        <li>xxx</li>
+        </ol>
+        <ol>
+        <li
+        value="2">yyy</li>
+        </ol>
+        <ol>
+        <li
+        value="3">zzz</li>
+    </ol>
+
+    <blockquote>
+        <p>1. xxx<br />
+        2. yyy<br />
+        3. zzz</p>
+    </blockquote>
+
+    <table border="1" width="300">
+        <caption>Titulo</caption>
+        <tr>
+        <th>Columna 1</th>
+        <th>Columna 2</th>
+        </tr>
+        <tr>
+        <td>Celda 1</td>
+        <td>Celda 2</td>
+        </tr>
+        <tr>
+        <td>Celda 3</td>
+        <td>Celda 4</td>
+        </tr>
+    </table>
+<br><br><br>
+    <table border="1" width="300">
+        <tr>
+        <td><div align="center"><strong>Colum
+        na1</strong></div></td>
+        <td><div align="center"><strong>Columna
+        2</strong></div></td>
+        </tr>
+        <tr>
+        <td>Celda 1</td>
+        <td>Celda 2</td>
+        </tr>
+        <tr>
+        <td>Celda 3</td>
+        <td>Celda 4</td>
+        </tr>
+    </table>
+    <br><br><br>
+    <table width="200">
+        <caption>
+        Título
+        </caption>
+        <tr>
+        <td bgcolor="#dddddd">&nbsp;</td>
+        <td bgcolor="#dddddd">&nbsp;</td>
+        <td bgcolor="#dddddd">&nbsp;</td>
+        </tr>
+        <tr>
+        <td bgcolor="#dddddd">&nbsp;</td>
+        <td bgcolor="#dddddd">
+        &nbsp;</td>
+        <td bgcolor="#dddddd">&nbsp;</td>
+        </tr>
+    </table>
+    <br><br><br>
+    <table width="200">
+        <tr>
+        <td colspan="3"><div
+        align="center">Título</div></td>
+        </tr>
+        <tr>
+        <td bgcolor="#dddddd">&nbsp;</td>
+        <td bgcolor="#dddddd">&nbsp;</td>
+        <td bgcolor="#dddddd">&nbsp;</td>
+        </tr>
+        <tr>
+        <td bgcolor="#dddddd">&nbsp;</td>
+        <td bgcolor="#dddddd">&nbsp;</td>
+        <td bgcolor="#dddddd">&nbsp;</td>
+        </tr>
+    </table>   
+    <br><br>
+    <form id="form1" name="form1" action="procesar.php" method="post" target="_blank">
+        <fieldset>
+        <legend>LOGIN</legend>
+        Usuario: <input type="text" id="usu1" name="usu1" value="xxx" /><br />
+        Clave: <input type="password" id="clave1" name="clave1" value="xxx" />
+        </fieldset>
+        <input type="submit" id="boton1" name="boton1" value="Enviar" />
+    </form>
+    <br><br>
+    <form id="form2" name="form2" action="" method="get" target="_blank">
+        LOGIN<br />
+        <label>Usuario: <input type="text" id="usu2" name="usu2" /></label><br />
+        <label>Clave: <input type="text" id="clave2" name="clave2" /></label><br />
+        <input type="submit" id="boton2" name="boton2" value="Enviar" />
+    </form>
+    <br><br>
+    <form id="form3" name="form3" action="mailto:xx@xx.com” enctype=text/plain method="post" target="_blank">
+        <fieldset>
+            <legend>LOGIN</legend>
+            Usuario: <input type="text" id="usu3" name="usu3" /><br />
+            Clave: <input type="password" id="clave3" name="clave3" />
+        </fieldset>
+        <input type="reset" id="boton3" name="boton3" value="Enviar" />
+    </form>
+    
+    <p><label><input type="radio" name="opcion" id="X" value="X" />X</label><br />
+    <label><input type="radio" name="opcion" id="Y" value="Y" />Y</label></p>   
+    
+    <p><label><input type="radio" name="opcion1" id="X" value="X" />X</label><br />
+    <label><input type="radio" name="opcion2" id="Y" value="Y" />Y</label></p>
+
+    <select name="lista">
+        <optgroup label="Caso 1">
+        <option>Mayo</option>
+        <option>Junio</option>
+        </optgroup>
+        <optgroup label="Caso 2">
+        <option>Mayo</option>
+        <option>Junio</option>
+        </optgroup>
+    </select>
+    <br><br>
+    <select name="lista[]" multiple="multiple">
+        <optgroup label=" Caso 1">
+        <option>Mayo</option>
+        <option>Junio</option>
+        </optgroup>
+        <optgroup label=" Caso 2">
+        <option>Mayo</option>
+        <option>Junio</option>
+        </optgroup>
+    </select>
+    <br><br>
+</body>
+</html>
