@@ -1,0 +1,32 @@
+/* Practica 1 */
+.contenedor{
+    background: brown;
+    height: 12vh;
+}
+.grid1, .grid2, .grid3{
+    height: 12vh;
+}
+.grid1 {
+    background: chartreuse;
+}
+.grid2{
+    background: chocolate;
+}
+.grid3{
+    background: cyan;
+}
+.bgheader{
+    background: #a67da7;
+    height: 20vh;
+}
+.colorbg{
+    background: #9d8d98;
+}
+
+.bgseg{
+    background: #28a745;
+    height: 15vh;
+}
+.bgfooter{
+    background: #7c9ecb
+}
